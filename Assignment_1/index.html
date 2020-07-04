@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<title>Zha Superbikes Point</title>
+<link rel="icon" type="image/jpg" href="image/logo.jpg"/>
+<link rel="stylesheet" type="text/css" href="styling.css">
+<style>
+/*BIkes SLIDESHOW*/
+
+	.Bike {width:100%; height:0px; padding-bottom:65%; overflow:hidden; position:relative; }
+	.Bike img{ position:absolute; animation:Bike 25s infinite; opacity:0; width: 100%; height: 50%;}
+	@keyframes Bike {25%{opacity:1;} 40%{opacity:0;}}
+	.Bike img:nth-child(1){animation-delay:0s;}
+	.Bike img:nth-child(2){animation-delay:5s;}
+	.Bike img:nth-child(3){animation-delay:10s;}
+	.Bike img:nth-child(4){animation-delay:15s;}
+	.Bike img:nth-child(5){animation-delay:20s;}
+
+	
+
+</style>
+
+</head>
+<body>
+<h1><img src="image/logo.jpg" width="15%" height="15%">  Zha SuperBikes</h1>
+<marquee scrolldelay="10" scrollamount="10"><h1>Welcome to My Website (i.e. WT Assignment 1)</h1></marquee>
+<nav>
+	<table style="width: 40%">
+		<tr>
+			<th>
+				<a href="index.html">Home</a>
+			</th>
+			<th>
+				<a href="history.html">History of Bike</a>
+			</th>
+			<th>
+				<a href="super_bikes.html" >Super Bikes</a>
+			</th>
+			<th>
+				<a href="about.html" >About</a>
+			</th>
+			
+		</tr>
+	</table>
+</nav>
+
+<div class="Bike">
+  <img src="image/bike_1.jpg" alt="Slide 1"/>
+  <img src="image/bike_2.jpg" alt="Slide 2"/>
+  <img src="image/bike_3.jpg" alt="Slide 3"/>
+  <img src="image/bike_4.jpg" alt="Slide 4"/>
+  <img src="image/bike_5.jpg" alt="Slide 5"/>
+</div>
+<h2>Promotion Section</h2>
+
+<table style="width: 100%">
+	<tr>
+		<th>
+			<h5>1. YAMAHA R6</h5>
+			<video width="320" height="240" controls>
+  			<source src="video/v1.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</th>
+		<th>
+			<h5>2. YAMAHA RM</h5>
+			<video width="320" height="240" controls >
+  			<source src="video/v2.mp4" type="video/mp4">
+  			<source src="video/v2.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+			</video>
+		</th>
+		<th>
+			<h5>3. YAMAHA R15</h5>
+			<video width="320" height="240" controls>
+  			<source src="video/v3.mp4" type="video/mp4">
+  			<source src="video/v3.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+			</video>
+		</th>
+	</tr>
+</table>
+
+</body>
+<footer>
+	<h3>Contact me</h3>
+	<nav>
+	<table style="width: 55%">
+		<tr>
+			<th>
+				<a href="https://mail.google.com/mail/u/0/#inbox"target="_blank" ><img src="image/gmail.jpg" alt="gamil logo" width="50" height="50"></a>
+			</th>
+			<th>
+				<a href="https://www.facebook.com" target="_blank" ><img src="image/fb.jpg" alt="Facebook logo" width="50" height="50"></a>
+
+			</th>
+			<th>
+				<a href="https://www.linkedin.com/" target="_blank" ><img src="image/linkedin_logo.jpg" alt="linkedin logo" width="50" height="50"></a>
+
+			</th>
+			<th><a href="https://www.instagram.com/?hl=en" target="_blank" ><img src="image/insta.jpg" alt="instagram logo" width="50" height="50"></a></th>
+
+			<th><a href="https://github.com/login" target="_blank" ><img src="image/github.jpg" alt="Github logo" width="50" height="50"></a></th>
+
+			<th><a href="feedback.html" target="_blank" ><img src="image/feedback.jpg" alt="Github logo" width="90" height="50"></a></th>
+
+			
+		</tr>
+	</table>
+</nav>
+<h3></h3>
+<a herf ="https://www.mitaoe.ac.in" target="_blank"><img src="image/mit.jpg" alt="MITAoE" width="400" height="100"></a>
+</footer>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<link rel="icon" type="image/jpg" href="image/logo.jpg"/>
+<link rel="stylesheet" type="text/css" href="styling.css">
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+	<h1><img src="image/logo.jpg" width="15%" height="15%">  Feedback</h1>
+	<table style="width: 35%">
+		<tr>
+			<th>
+				<a href="index.html">Home</a>
+			</th>
+			<th>
+				<a href="history.html">History of Bike</a>
+			</th>
+			<th>
+				<a href="super_bikes.html" >Super Bikes</a>
+			</th>
+      <th>
+        <a href="about.html" >About</a>
+      </th>
+		</tr>
+	</table>
+
+	<div>
+  <form action="index.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="reaction">Your experience</label>
+    <select id="reaction" name="reaction">
+      <option value="Bad">Not Good</option>
+      <option value="Good">Good (Nice Try)</option>
+      <option value="Noice">Noice</option>
+    </select>
+
+    <label for="comment">Suggestions</label>
+    <input type="text" id="comment" name="comment" placeholder="Your Suggestion..">
+
+    <input type="submit" value="Submit">
+</div>
+</body>
+</html>

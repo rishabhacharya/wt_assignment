@@ -1,0 +1,172 @@
+
+body {
+	background-color: black;
+	background: linear-gradient(to right, #b92b27 0%, #1565C0 100%)
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+table, td {
+  border: 1px solid white;
+  height: 80%;
+  width: 80%;
+  font color: white;
+}
+
+h1:hover{
+	background-color: white;
+	color: black;	
+}
+
+h2 :hover{
+	background-color: white;
+	color: black;	
+}
+
+h5:hover{
+	background-color: white;
+	color: blue;	
+}
+
+h4:hover{
+	background-color: white;
+	color: black;	
+}
+.img { 
+    width: 100%; 
+    height: 100%; 
+	object-fit: contain; 
+} 
+
+.login {
+	background-color: black;
+	margin-top: 60px;
+	background: linear-gradient(to right, #b92b27 0%, #1565C0 100%)
+}
+
+.vl {
+  margin-top: 10px; 
+  border-left: 2px solid white;
+  height: 700px;
+}
+
+.am a{
+	display: inline-block;
+	color: white;
+	cursor:pointer;
+	text-align:center;
+	
+}
+
+.text-center{
+	color: white;
+}
+
+.carousel-item {
+	object-fit: cover;
+	object-position: center;
+}
+
+
+.fa {
+	padding: 10px;
+	font-size: 15px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.form {
+	float: center;
+}
+
+.logo {
+	padding-top: 10px;
+	background-color: rgba(128,128,128,0.5);
+	padding-bottom: 10px;
+	padding-left: 7px;
+	width: 195px;
+}
+
+
+.contact{
+	margin-top: 5rem;
+	padding: 15px;
+	margin-bottom: 5rem;
+	background-color: black;
+	color: white;
+	background: linear-gradient(to right, #b92b27 0%, #1565C0 100%)
+}
+
+.content-first {
+	color: white;
+	background-color: black;
+	margin-bottom: 20px;
+	background: linear-gradient(to right, #b92b27 0%, #1565C0 100%)
+
+}
+
+.content-first h1{
+	margin-top: 30px;
+
+}
+
+.content-first p {
+	font-size: 20p;
+}
+
+.content-second {
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+footer {
+	background-color: rgba(128,128,128,0.5);
+	border-radius: 10px;
+	
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.footer-copyright {
+	background-color: rgba(128,128,128,0.1);
+	color: white;
+}
+
+.footer-copyright a{
+	color: white); 
+
+}
+
+footer a{
+	color: white;
+}
